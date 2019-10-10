@@ -7,21 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BBBA5D322644F7C00B16239 /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBBA5D222644F7C00B16239 /* NetworkServices.swift */; };
+		1BBBA5D5226450D400B16239 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBBA5D4226450D400B16239 /* CustomError.swift */; };
+		1BBBA5D822645DAD00B16239 /* UIVIewcontroller+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBBA5D722645DAD00B16239 /* UIVIewcontroller+Extension.swift */; };
+		A9136592226E5E94009D2F73 /* policereport.png in Resources */ = {isa = PBXBuildFile; fileRef = A9136591226E5E93009D2F73 /* policereport.png */; };
+		A9136594226E65D2009D2F73 /* SpecificOfficerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9136593226E65D2009D2F73 /* SpecificOfficerTableViewController.swift */; };
+		A9198CCA225BF4D700064FD6 /* VideosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9198CC9225BF4D700064FD6 /* VideosTableViewController.swift */; };
+		A91D43AB226486F3001B0930 /* OfficerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D43AA226486F3001B0930 /* OfficerViewController.swift */; };
 		A921DFC7225329A2003BC4ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A921DFC6225329A2003BC4ED /* AppDelegate.swift */; };
-		A921DFC9225329A2003BC4ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A921DFC8225329A2003BC4ED /* ViewController.swift */; };
 		A921DFCC225329A2003BC4ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A921DFCA225329A2003BC4ED /* Main.storyboard */; };
 		A921DFCE225329A5003BC4ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A921DFCD225329A5003BC4ED /* Assets.xcassets */; };
 		A921DFD1225329A5003BC4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A921DFCF225329A5003BC4ED /* LaunchScreen.storyboard */; };
+		A921DFD922532C6D003BC4ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A921DFD822532C6D003BC4ED /* GoogleService-Info.plist */; };
+		A921DFEE22532EB3003BC4ED /* Chief-Jemison-Headshot-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A921DFDC22532EB1003BC4ED /* Chief-Jemison-Headshot-1.jpeg */; };
+		A921DFEF22532EB3003BC4ED /* icons8-box-46.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFDD22532EB1003BC4ED /* icons8-box-46.png */; };
+		A921DFF022532EB3003BC4ED /* 920x920.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A921DFDE22532EB1003BC4ED /* 920x920.jpg */; };
+		A921DFF122532EB3003BC4ED /* PoliceVideo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A921DFDF22532EB1003BC4ED /* PoliceVideo1.jpg */; };
+		A921DFF222532EB3003BC4ED /* Screen Shot 2019-02-05 at 8.45.58 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFE022532EB1003BC4ED /* Screen Shot 2019-02-05 at 8.45.58 PM.png */; };
+		A921DFF322532EB3003BC4ED /* Untitled-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A921DFE122532EB1003BC4ED /* Untitled-1.jpeg */; };
+		A921DFF422532EB3003BC4ED /* 43403645-smiling-young-policeman-on-white-background-left-you-can-write-some-text.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A921DFE222532EB1003BC4ED /* 43403645-smiling-young-policeman-on-white-background-left-you-can-write-some-text.jpg */; };
+		A921DFF522532EB3003BC4ED /* PoliceVideo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A921DFE322532EB1003BC4ED /* PoliceVideo2.jpg */; };
+		A921DFF622532EB3003BC4ED /* mo.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFE422532EB1003BC4ED /* mo.png */; };
+		A921DFF722532EB3003BC4ED /* icons8-twitter-filled-186.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFE522532EB2003BC4ED /* icons8-twitter-filled-186.png */; };
+		A921DFF822532EB3003BC4ED /* icons8-police-badge-46.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFE622532EB2003BC4ED /* icons8-police-badge-46.png */; };
+		A921DFF922532EB3003BC4ED /* icons8-phone-filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFE722532EB2003BC4ED /* icons8-phone-filled-100.png */; };
+		A921DFFA22532EB3003BC4ED /* icons8-home-page-46.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFE822532EB2003BC4ED /* icons8-home-page-46.png */; };
+		A921DFFB22532EB3003BC4ED /* icons8-gmail-filled-186.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFE922532EB2003BC4ED /* icons8-gmail-filled-186.png */; };
+		A921DFFC22532EB3003BC4ED /* mo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFEA22532EB2003BC4ED /* mo-2.png */; };
+		A921DFFD22532EB3003BC4ED /* icons8-file-46.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFEB22532EB2003BC4ED /* icons8-file-46.png */; };
+		A921DFFE22532EB3003BC4ED /* icons8-facebook-filled-186.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFEC22532EB2003BC4ED /* icons8-facebook-filled-186.png */; };
+		A921DFFF22532EB3003BC4ED /* icons8-video-46.png in Resources */ = {isa = PBXBuildFile; fileRef = A921DFED22532EB3003BC4ED /* icons8-video-46.png */; };
+		A921E0032253320C003BC4ED /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A921E0022253320C003BC4ED /* SignInViewController.swift */; };
+		A921E00522533547003BC4ED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A921E00422533547003BC4ED /* HomeViewController.swift */; };
+		A921E0072253374E003BC4ED /* icons8-name-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A921E0062253374E003BC4ED /* icons8-name-100.png */; };
+		A92F39C122733CDA0004165E /* CaseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F39C022733CDA0004165E /* CaseDetailViewController.swift */; };
+		A941CF6D2255BFC800EFA36D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF6C2255BFC800EFA36D /* SignUpViewController.swift */; };
+		A941CF6F2255E34B00EFA36D /* SupervisorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF6E2255E34B00EFA36D /* SupervisorTableViewCell.swift */; };
+		A941CF712255E43A00EFA36D /* SupervisorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF702255E43A00EFA36D /* SupervisorModel.swift */; };
+		A941CF732255E59600EFA36D /* SupervisorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF722255E59600EFA36D /* SupervisorTableViewController.swift */; };
+		A941CF79225654B600EFA36D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF78225654B600EFA36D /* PageViewController.swift */; };
+		A941CF7B22565F7400EFA36D /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF7A22565F7400EFA36D /* ReportsViewController.swift */; };
+		A941CF7D2257B52800EFA36D /* OfficerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF7C2257B52800EFA36D /* OfficerTableViewController.swift */; };
+		A941CF7F2257B60C00EFA36D /* AddOfficerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF7E2257B60C00EFA36D /* AddOfficerViewController.swift */; };
+		A941CF812257C02000EFA36D /* OfficerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF802257C02000EFA36D /* OfficerTableViewCell.swift */; };
+		A941CF832257C1BE00EFA36D /* OfficerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF822257C1BE00EFA36D /* OfficerModel.swift */; };
+		A941CF852257CF3D00EFA36D /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF842257CF3D00EFA36D /* EditProfileViewController.swift */; };
+		A941CF872257DFE600EFA36D /* CaseCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF862257DFE600EFA36D /* CaseCreationViewController.swift */; };
+		A941CF892257E01B00EFA36D /* CaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941CF882257E01B00EFA36D /* CaseModel.swift */; };
+		A9A7D6CC225BFBF5008464A8 /* vid1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9A7D6C8225BFBEC008464A8 /* vid1.jpg */; };
+		A9A7D6CD225BFBF5008464A8 /* vid4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9A7D6C9225BFBEE008464A8 /* vid4.jpg */; };
+		A9A7D6CE225BFBF5008464A8 /* vid2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9A7D6CA225BFBEF008464A8 /* vid2.jpg */; };
+		A9A7D6CF225BFBF5008464A8 /* vid3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9A7D6CB225BFBF2008464A8 /* vid3.jpg */; };
+		A9CDB7D0225C071D000F3F0F /* CaseListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CDB7CF225C071D000F3F0F /* CaseListTableViewController.swift */; };
+		F2A9E2AB32574E841A4554A1 /* Pods_ReticleV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B299CF3663A464065319084 /* Pods_ReticleV1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BBBA5D222644F7C00B16239 /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		1BBBA5D4226450D400B16239 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		1BBBA5D722645DAD00B16239 /* UIVIewcontroller+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewcontroller+Extension.swift"; sourceTree = "<group>"; };
+		50E01248B8A19D16208840BF /* Pods-ReticleV1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReticleV1.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReticleV1/Pods-ReticleV1.release.xcconfig"; sourceTree = "<group>"; };
+		8B299CF3663A464065319084 /* Pods_ReticleV1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReticleV1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9136591226E5E93009D2F73 /* policereport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = policereport.png; sourceTree = "<group>"; };
+		A9136593226E65D2009D2F73 /* SpecificOfficerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificOfficerTableViewController.swift; sourceTree = "<group>"; };
+		A9198CC9225BF4D700064FD6 /* VideosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosTableViewController.swift; sourceTree = "<group>"; };
+		A91D43AA226486F3001B0930 /* OfficerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficerViewController.swift; sourceTree = "<group>"; };
 		A921DFC3225329A2003BC4ED /* ReticleV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReticleV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A921DFC6225329A2003BC4ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A921DFC8225329A2003BC4ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A921DFCB225329A2003BC4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A921DFCD225329A5003BC4ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A921DFD0225329A5003BC4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A921DFD2225329A5003BC4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A921DFD822532C6D003BC4ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A921DFDC22532EB1003BC4ED /* Chief-Jemison-Headshot-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chief-Jemison-Headshot-1.jpeg"; sourceTree = "<group>"; };
+		A921DFDD22532EB1003BC4ED /* icons8-box-46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-box-46.png"; sourceTree = "<group>"; };
+		A921DFDE22532EB1003BC4ED /* 920x920.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 920x920.jpg; sourceTree = "<group>"; };
+		A921DFDF22532EB1003BC4ED /* PoliceVideo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PoliceVideo1.jpg; sourceTree = "<group>"; };
+		A921DFE022532EB1003BC4ED /* Screen Shot 2019-02-05 at 8.45.58 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-02-05 at 8.45.58 PM.png"; sourceTree = "<group>"; };
+		A921DFE122532EB1003BC4ED /* Untitled-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Untitled-1.jpeg"; sourceTree = "<group>"; };
+		A921DFE222532EB1003BC4ED /* 43403645-smiling-young-policeman-on-white-background-left-you-can-write-some-text.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "43403645-smiling-young-policeman-on-white-background-left-you-can-write-some-text.jpg"; sourceTree = "<group>"; };
+		A921DFE322532EB1003BC4ED /* PoliceVideo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PoliceVideo2.jpg; sourceTree = "<group>"; };
+		A921DFE422532EB1003BC4ED /* mo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mo.png; sourceTree = "<group>"; };
+		A921DFE522532EB2003BC4ED /* icons8-twitter-filled-186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-twitter-filled-186.png"; sourceTree = "<group>"; };
+		A921DFE622532EB2003BC4ED /* icons8-police-badge-46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-police-badge-46.png"; sourceTree = "<group>"; };
+		A921DFE722532EB2003BC4ED /* icons8-phone-filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-phone-filled-100.png"; sourceTree = "<group>"; };
+		A921DFE822532EB2003BC4ED /* icons8-home-page-46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home-page-46.png"; sourceTree = "<group>"; };
+		A921DFE922532EB2003BC4ED /* icons8-gmail-filled-186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-gmail-filled-186.png"; sourceTree = "<group>"; };
+		A921DFEA22532EB2003BC4ED /* mo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mo-2.png"; sourceTree = "<group>"; };
+		A921DFEB22532EB2003BC4ED /* icons8-file-46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-file-46.png"; sourceTree = "<group>"; };
+		A921DFEC22532EB2003BC4ED /* icons8-facebook-filled-186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-facebook-filled-186.png"; sourceTree = "<group>"; };
+		A921DFED22532EB3003BC4ED /* icons8-video-46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-video-46.png"; sourceTree = "<group>"; };
+		A921E0022253320C003BC4ED /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		A921E00422533547003BC4ED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A921E0062253374E003BC4ED /* icons8-name-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-name-100.png"; sourceTree = "<group>"; };
+		A92F39C022733CDA0004165E /* CaseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseDetailViewController.swift; sourceTree = "<group>"; };
+		A941CF6C2255BFC800EFA36D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A941CF6E2255E34B00EFA36D /* SupervisorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervisorTableViewCell.swift; sourceTree = "<group>"; };
+		A941CF702255E43A00EFA36D /* SupervisorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervisorModel.swift; sourceTree = "<group>"; };
+		A941CF722255E59600EFA36D /* SupervisorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervisorTableViewController.swift; sourceTree = "<group>"; };
+		A941CF78225654B600EFA36D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		A941CF7A22565F7400EFA36D /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		A941CF7C2257B52800EFA36D /* OfficerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficerTableViewController.swift; sourceTree = "<group>"; };
+		A941CF7E2257B60C00EFA36D /* AddOfficerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOfficerViewController.swift; sourceTree = "<group>"; };
+		A941CF802257C02000EFA36D /* OfficerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficerTableViewCell.swift; sourceTree = "<group>"; };
+		A941CF822257C1BE00EFA36D /* OfficerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficerModel.swift; sourceTree = "<group>"; };
+		A941CF842257CF3D00EFA36D /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		A941CF862257DFE600EFA36D /* CaseCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseCreationViewController.swift; sourceTree = "<group>"; };
+		A941CF882257E01B00EFA36D /* CaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseModel.swift; sourceTree = "<group>"; };
+		A9A7D6C8225BFBEC008464A8 /* vid1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vid1.jpg; sourceTree = "<group>"; };
+		A9A7D6C9225BFBEE008464A8 /* vid4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vid4.jpg; sourceTree = "<group>"; };
+		A9A7D6CA225BFBEF008464A8 /* vid2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vid2.jpg; sourceTree = "<group>"; };
+		A9A7D6CB225BFBF2008464A8 /* vid3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vid3.jpg; sourceTree = "<group>"; };
+		A9CDB7CF225C071D000F3F0F /* CaseListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseListTableViewController.swift; sourceTree = "<group>"; };
+		CF66D2D530DBA2A31931816B /* Pods-ReticleV1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReticleV1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReticleV1/Pods-ReticleV1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +127,130 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A9E2AB32574E841A4554A1 /* Pods_ReticleV1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BBBA5C82264496B00B16239 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A921DFD822532C6D003BC4ED /* GoogleService-Info.plist */,
+				A921DFD2225329A5003BC4ED /* Info.plist */,
+				A921DFC6225329A2003BC4ED /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1BBBA5C92264497600B16239 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BBBA5CF22644A1B00B16239 /* CustomCells */,
+				A941CF6C2255BFC800EFA36D /* SignUpViewController.swift */,
+				A921E00422533547003BC4ED /* HomeViewController.swift */,
+				A921E0022253320C003BC4ED /* SignInViewController.swift */,
+				A941CF722255E59600EFA36D /* SupervisorTableViewController.swift */,
+				A941CF78225654B600EFA36D /* PageViewController.swift */,
+				A941CF7A22565F7400EFA36D /* ReportsViewController.swift */,
+				A941CF7C2257B52800EFA36D /* OfficerTableViewController.swift */,
+				A941CF7E2257B60C00EFA36D /* AddOfficerViewController.swift */,
+				A941CF842257CF3D00EFA36D /* EditProfileViewController.swift */,
+				A941CF862257DFE600EFA36D /* CaseCreationViewController.swift */,
+				A9198CC9225BF4D700064FD6 /* VideosTableViewController.swift */,
+				A9CDB7CF225C071D000F3F0F /* CaseListTableViewController.swift */,
+				A91D43AA226486F3001B0930 /* OfficerViewController.swift */,
+				A9136593226E65D2009D2F73 /* SpecificOfficerTableViewController.swift */,
+				A92F39C022733CDA0004165E /* CaseDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1BBBA5CA2264497F00B16239 /* UserInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				A921DFCA225329A2003BC4ED /* Main.storyboard */,
+				A921DFCF225329A5003BC4ED /* LaunchScreen.storyboard */,
+			);
+			path = UserInterfaces;
+			sourceTree = "<group>";
+		};
+		1BBBA5CB2264498900B16239 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BBBA5CD2264499800B16239 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1BBBA5CD2264499800B16239 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A921DFCD225329A5003BC4ED /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1BBBA5CE226449A700B16239 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A941CF822257C1BE00EFA36D /* OfficerModel.swift */,
+				A941CF702255E43A00EFA36D /* SupervisorModel.swift */,
+				A941CF882257E01B00EFA36D /* CaseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BBBA5CF22644A1B00B16239 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				A941CF802257C02000EFA36D /* OfficerTableViewCell.swift */,
+				A941CF6E2255E34B00EFA36D /* SupervisorTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		1BBBA5D022644C7C00B16239 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				1BBBA5D4226450D400B16239 /* CustomError.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		1BBBA5D122644F3C00B16239 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1BBBA5D222644F7C00B16239 /* NetworkServices.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1BBBA5D622645D8D00B16239 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1BBBA5D722645DAD00B16239 /* UIVIewcontroller+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		657BF423BA21CDF24468D634 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF66D2D530DBA2A31931816B /* Pods-ReticleV1.debug.xcconfig */,
+				50E01248B8A19D16208840BF /* Pods-ReticleV1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A921DFBA225329A2003BC4ED = {
 			isa = PBXGroup;
 			children = (
 				A921DFC5225329A2003BC4ED /* ReticleV1 */,
 				A921DFC4225329A2003BC4ED /* Products */,
+				657BF423BA21CDF24468D634 /* Pods */,
+				B4184B625F25EE5638538810 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +265,56 @@
 		A921DFC5225329A2003BC4ED /* ReticleV1 */ = {
 			isa = PBXGroup;
 			children = (
-				A921DFC6225329A2003BC4ED /* AppDelegate.swift */,
-				A921DFC8225329A2003BC4ED /* ViewController.swift */,
-				A921DFCA225329A2003BC4ED /* Main.storyboard */,
-				A921DFCD225329A5003BC4ED /* Assets.xcassets */,
-				A921DFCF225329A5003BC4ED /* LaunchScreen.storyboard */,
-				A921DFD2225329A5003BC4ED /* Info.plist */,
+				1BBBA5D622645D8D00B16239 /* Extensions */,
+				1BBBA5D122644F3C00B16239 /* Network */,
+				1BBBA5D022644C7C00B16239 /* Supports */,
+				1BBBA5CE226449A700B16239 /* Models */,
+				1BBBA5CB2264498900B16239 /* Resources */,
+				1BBBA5CA2264497F00B16239 /* UserInterfaces */,
+				1BBBA5C92264497600B16239 /* ViewControllers */,
+				1BBBA5C82264496B00B16239 /* Application */,
+				A921DFDB22532E96003BC4ED /* images */,
 			);
 			path = ReticleV1;
+			sourceTree = "<group>";
+		};
+		A921DFDB22532E96003BC4ED /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A9136591226E5E93009D2F73 /* policereport.png */,
+				A9A7D6C8225BFBEC008464A8 /* vid1.jpg */,
+				A9A7D6CA225BFBEF008464A8 /* vid2.jpg */,
+				A9A7D6CB225BFBF2008464A8 /* vid3.jpg */,
+				A9A7D6C9225BFBEE008464A8 /* vid4.jpg */,
+				A921E0062253374E003BC4ED /* icons8-name-100.png */,
+				A921DFDE22532EB1003BC4ED /* 920x920.jpg */,
+				A921DFE222532EB1003BC4ED /* 43403645-smiling-young-policeman-on-white-background-left-you-can-write-some-text.jpg */,
+				A921DFDC22532EB1003BC4ED /* Chief-Jemison-Headshot-1.jpeg */,
+				A921DFDD22532EB1003BC4ED /* icons8-box-46.png */,
+				A921DFEC22532EB2003BC4ED /* icons8-facebook-filled-186.png */,
+				A921DFEB22532EB2003BC4ED /* icons8-file-46.png */,
+				A921DFE922532EB2003BC4ED /* icons8-gmail-filled-186.png */,
+				A921DFE822532EB2003BC4ED /* icons8-home-page-46.png */,
+				A921DFE722532EB2003BC4ED /* icons8-phone-filled-100.png */,
+				A921DFE622532EB2003BC4ED /* icons8-police-badge-46.png */,
+				A921DFE522532EB2003BC4ED /* icons8-twitter-filled-186.png */,
+				A921DFED22532EB3003BC4ED /* icons8-video-46.png */,
+				A921DFEA22532EB2003BC4ED /* mo-2.png */,
+				A921DFE422532EB1003BC4ED /* mo.png */,
+				A921DFDF22532EB1003BC4ED /* PoliceVideo1.jpg */,
+				A921DFE322532EB1003BC4ED /* PoliceVideo2.jpg */,
+				A921DFE022532EB1003BC4ED /* Screen Shot 2019-02-05 at 8.45.58 PM.png */,
+				A921DFE122532EB1003BC4ED /* Untitled-1.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B4184B625F25EE5638538810 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B299CF3663A464065319084 /* Pods_ReticleV1.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A921DFD5225329A5003BC4ED /* Build configuration list for PBXNativeTarget "ReticleV1" */;
 			buildPhases = (
+				33CF7D77401E02EEB6717021 /* [CP] Check Pods Manifest.lock */,
 				A921DFBF225329A2003BC4ED /* Sources */,
 				A921DFC0225329A2003BC4ED /* Frameworks */,
 				A921DFC1225329A2003BC4ED /* Resources */,
+				4D21626287346BAFB63C8F3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +377,121 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A921DFF622532EB3003BC4ED /* mo.png in Resources */,
+				A921DFF522532EB3003BC4ED /* PoliceVideo2.jpg in Resources */,
 				A921DFD1225329A5003BC4ED /* LaunchScreen.storyboard in Resources */,
 				A921DFCE225329A5003BC4ED /* Assets.xcassets in Resources */,
+				A921DFFB22532EB3003BC4ED /* icons8-gmail-filled-186.png in Resources */,
+				A921DFF922532EB3003BC4ED /* icons8-phone-filled-100.png in Resources */,
+				A921DFEE22532EB3003BC4ED /* Chief-Jemison-Headshot-1.jpeg in Resources */,
+				A921DFF722532EB3003BC4ED /* icons8-twitter-filled-186.png in Resources */,
+				A921DFF222532EB3003BC4ED /* Screen Shot 2019-02-05 at 8.45.58 PM.png in Resources */,
+				A921DFF122532EB3003BC4ED /* PoliceVideo1.jpg in Resources */,
+				A921DFF022532EB3003BC4ED /* 920x920.jpg in Resources */,
+				A921DFF422532EB3003BC4ED /* 43403645-smiling-young-policeman-on-white-background-left-you-can-write-some-text.jpg in Resources */,
+				A921E0072253374E003BC4ED /* icons8-name-100.png in Resources */,
+				A921DFFE22532EB3003BC4ED /* icons8-facebook-filled-186.png in Resources */,
+				A921DFFC22532EB3003BC4ED /* mo-2.png in Resources */,
+				A921DFFD22532EB3003BC4ED /* icons8-file-46.png in Resources */,
+				A9A7D6CE225BFBF5008464A8 /* vid2.jpg in Resources */,
+				A9A7D6CD225BFBF5008464A8 /* vid4.jpg in Resources */,
+				A921DFFA22532EB3003BC4ED /* icons8-home-page-46.png in Resources */,
+				A921DFD922532C6D003BC4ED /* GoogleService-Info.plist in Resources */,
 				A921DFCC225329A2003BC4ED /* Main.storyboard in Resources */,
+				A9A7D6CC225BFBF5008464A8 /* vid1.jpg in Resources */,
+				A9A7D6CF225BFBF5008464A8 /* vid3.jpg in Resources */,
+				A921DFF322532EB3003BC4ED /* Untitled-1.jpeg in Resources */,
+				A921DFF822532EB3003BC4ED /* icons8-police-badge-46.png in Resources */,
+				A921DFEF22532EB3003BC4ED /* icons8-box-46.png in Resources */,
+				A921DFFF22532EB3003BC4ED /* icons8-video-46.png in Resources */,
+				A9136592226E5E94009D2F73 /* policereport.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33CF7D77401E02EEB6717021 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReticleV1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D21626287346BAFB63C8F3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReticleV1/Pods-ReticleV1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReticleV1/Pods-ReticleV1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A921DFBF225329A2003BC4ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A921DFC9225329A2003BC4ED /* ViewController.swift in Sources */,
+				A921E00522533547003BC4ED /* HomeViewController.swift in Sources */,
+				A941CF79225654B600EFA36D /* PageViewController.swift in Sources */,
+				A941CF7B22565F7400EFA36D /* ReportsViewController.swift in Sources */,
+				A9198CCA225BF4D700064FD6 /* VideosTableViewController.swift in Sources */,
+				A9CDB7D0225C071D000F3F0F /* CaseListTableViewController.swift in Sources */,
+				1BBBA5D822645DAD00B16239 /* UIVIewcontroller+Extension.swift in Sources */,
+				1BBBA5D5226450D400B16239 /* CustomError.swift in Sources */,
+				A921E0032253320C003BC4ED /* SignInViewController.swift in Sources */,
+				A941CF832257C1BE00EFA36D /* OfficerModel.swift in Sources */,
+				A941CF892257E01B00EFA36D /* CaseModel.swift in Sources */,
+				A941CF7D2257B52800EFA36D /* OfficerTableViewController.swift in Sources */,
+				A9136594226E65D2009D2F73 /* SpecificOfficerTableViewController.swift in Sources */,
+				A941CF872257DFE600EFA36D /* CaseCreationViewController.swift in Sources */,
 				A921DFC7225329A2003BC4ED /* AppDelegate.swift in Sources */,
+				A941CF852257CF3D00EFA36D /* EditProfileViewController.swift in Sources */,
+				A941CF6D2255BFC800EFA36D /* SignUpViewController.swift in Sources */,
+				A941CF712255E43A00EFA36D /* SupervisorModel.swift in Sources */,
+				1BBBA5D322644F7C00B16239 /* NetworkServices.swift in Sources */,
+				A941CF6F2255E34B00EFA36D /* SupervisorTableViewCell.swift in Sources */,
+				A941CF732255E59600EFA36D /* SupervisorTableViewController.swift in Sources */,
+				A941CF7F2257B60C00EFA36D /* AddOfficerViewController.swift in Sources */,
+				A941CF812257C02000EFA36D /* OfficerTableViewCell.swift in Sources */,
+				A91D43AB226486F3001B0930 /* OfficerViewController.swift in Sources */,
+				A92F39C122733CDA0004165E /* CaseDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +635,12 @@
 		};
 		A921DFD6225329A5003BC4ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF66D2D530DBA2A31931816B /* Pods-ReticleV1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ReticleV1/Info.plist;
+				DEVELOPMENT_TEAM = 8F8MR739G8;
+				INFOPLIST_FILE = "$(SRCROOT)/ReticleV1/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +654,12 @@
 		};
 		A921DFD7225329A5003BC4ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E01248B8A19D16208840BF /* Pods-ReticleV1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ReticleV1/Info.plist;
+				DEVELOPMENT_TEAM = 8F8MR739G8;
+				INFOPLIST_FILE = "$(SRCROOT)/ReticleV1/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
